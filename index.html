@@ -654,7 +654,8 @@
         const htmlElement = document.documentElement;
 
         // Check local storage or system preference
-        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        // Default to light mode unless explicitly set to dark
+        if (localStorage.theme === 'dark') {
             htmlElement.classList.add('dark');
         } else {
             htmlElement.classList.remove('dark');
