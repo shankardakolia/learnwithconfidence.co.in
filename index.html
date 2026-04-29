@@ -179,6 +179,64 @@
             border-color: #6366f1;
         }
 
+        /* Share Button */
+        .share-btn {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 0 20px;
+            height: 46px;
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 14px rgba(99, 102, 241, 0.3);
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        .share-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(99, 102, 241, 0.45);
+        }
+        .share-btn:active {
+            transform: translateY(0);
+        }
+        .share-btn .share-tooltip {
+            position: absolute;
+            top: -36px;
+            left: 50%;
+            transform: translateX(-50%) translateY(8px);
+            background: #1e293b;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 500;
+            padding: 5px 12px;
+            border-radius: 6px;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease;
+        }
+        .share-btn .share-tooltip::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 50%;
+            transform: translateX(-50%) rotate(45deg);
+            width: 8px;
+            height: 8px;
+            background: #1e293b;
+        }
+        .share-btn.copied .share-tooltip {
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+        }
+
         /* App Card Styles */
         .app-card {
             animation: appFadeIn 0.4s ease-out both;
@@ -513,20 +571,22 @@
 
             <!-- Search & Filters -->
             <div class="mb-8 reveal">
-                <!-- Search Bar -->
-                <div class="relative mb-6 max-w-md">
-                    <i class="fas fa-search absolute left-4 top-1/2 -translate-y-1/2 text-slate-400"></i>
-                    <input type="text" id="apps-search" placeholder="Search apps..." class="w-full pl-11 pr-4 py-3 bg-white dark:bg-white/5 border border-slate-200 dark:border-white/10 rounded-xl text-slate-900 dark:text-white focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all text-sm">
+                <!-- Search Bar + Share Button -->
+                <div class="flex items-center gap-3 mb-6 max-w-2xl">
+                    <div class="relative flex-1 max-w-md">
+                        <i class="fas fa-search absolute left-4 top-1/2 -translate-y-1/2 text-slate-400"></i>
+                        <input type="text" id="apps-search" placeholder="Search apps..." class="w-full pl-11 pr-4 py-3 bg-white dark:bg-white/5 border border-slate-200 dark:border-white/10 rounded-xl text-slate-900 dark:text-white focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all text-sm">
+                    </div>
+                    <button id="share-apps-btn" class="share-btn" title="Copy filtered apps list to clipboard">
+                        <span class="share-tooltip">✓ Copied to clipboard!</span>
+                        <i class="fas fa-share-alt"></i>
+                        <span class="hidden sm:inline">Share</span>
+                    </button>
                 </div>
-                <!-- Category Filter Tabs -->
+                <!-- Filter Tabs -->
                 <div class="flex flex-wrap gap-2" id="apps-filters">
                     <button data-filter="all" class="app-filter-btn active px-4 py-2 rounded-full text-sm font-medium transition-all">All</button>
                     <button data-filter="featured" class="app-filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all">⭐ Featured</button>
-                    <button data-filter="Education" class="app-filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all">Education</button>
-                    <button data-filter="Finance" class="app-filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all">Finance</button>
-                    <button data-filter="Games" class="app-filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all">Games</button>
-                    <button data-filter="Productivity" class="app-filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all">Productivity</button>
-                    <button data-filter="Tools" class="app-filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all">Tools</button>
                 </div>
             </div>
 
@@ -785,17 +845,7 @@
             const searchInput = document.getElementById('apps-search');
             const countLabel = document.getElementById('apps-count-label');
 
-            // Category color mapping
-            const catColors = {
-                'Education': { bg: 'bg-blue-100 dark:bg-blue-500/20', text: 'text-blue-600 dark:text-blue-400' },
-                'Finance': { bg: 'bg-emerald-100 dark:bg-emerald-500/20', text: 'text-emerald-600 dark:text-emerald-400' },
-                'Games': { bg: 'bg-orange-100 dark:bg-orange-500/20', text: 'text-orange-600 dark:text-orange-400' },
-                'Productivity': { bg: 'bg-purple-100 dark:bg-purple-500/20', text: 'text-purple-600 dark:text-purple-400' },
-                'Tools': { bg: 'bg-slate-200 dark:bg-slate-500/20', text: 'text-slate-600 dark:text-slate-400' },
-            };
-
             function createAppCard(app, index) {
-                const colors = catColors[app.category] || catColors['Tools'];
                 const delay = (index % APPS_PER_PAGE) * 0.04;
                 const card = document.createElement('a');
                 card.href = app.play_url;
@@ -809,7 +859,7 @@
                         ${app.featured ? '<div class="absolute top-1 right-1 w-5 h-5 flex items-center justify-center rounded-full bg-yellow-400 text-[10px] shadow-sm" title="Featured">⭐</div>' : ''}
                     </div>
                     <h4 class="mt-2.5 text-xs sm:text-sm font-semibold text-slate-800 dark:text-white leading-tight line-clamp-2 group-hover:text-primary transition-colors">${app.name}</h4>
-                    <span class="inline-block mt-1 text-[10px] sm:text-xs px-2 py-0.5 rounded-full ${colors.bg} ${colors.text} font-medium">${app.category}</span>
+
                     ${app.installs > 0 ? `<p class="mt-0.5 text-[10px] text-slate-400 dark:text-slate-500">${app.installs}+ installs</p>` : ''}
                 `;
                 return card;
@@ -819,11 +869,9 @@
                 const q = searchQuery.toLowerCase().trim();
                 filteredApps = allApps.filter(app => {
                     const matchesFilter = currentFilter === 'all'
-                        || (currentFilter === 'featured' && app.featured)
-                        || app.category === currentFilter;
+                        || (currentFilter === 'featured' && app.featured);
                     const matchesSearch = !q
                         || app.name.toLowerCase().includes(q)
-                        || app.category.toLowerCase().includes(q)
                         || app.id.toLowerCase().includes(q);
                     return matchesFilter && matchesSearch;
                 });
@@ -903,6 +951,50 @@
             loadMoreBtn.addEventListener('click', () => {
                 currentPage++;
                 renderApps();
+            });
+
+            // Share filtered apps
+            const shareBtn = document.getElementById('share-apps-btn');
+            shareBtn.addEventListener('click', () => {
+                if (filteredApps.length === 0) {
+                    const tooltip = shareBtn.querySelector('.share-tooltip');
+                    tooltip.textContent = '⚠ No apps to share';
+                    shareBtn.classList.add('copied');
+                    setTimeout(() => {
+                        shareBtn.classList.remove('copied');
+                        tooltip.textContent = '✓ Copied to clipboard!';
+                    }, 2000);
+                    return;
+                }
+
+                const lines = filteredApps.map(app =>
+                    `App Name : ${app.name}\nURL : ${app.play_url}`
+                ).join('\n\n');
+
+                const header = `My Apps (${filteredApps.length} apps)\n${'─'.repeat(30)}\n\n`;
+                const textToCopy = header + lines;
+
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    const tooltip = shareBtn.querySelector('.share-tooltip');
+                    tooltip.textContent = `✓ ${filteredApps.length} apps copied!`;
+                    shareBtn.classList.add('copied');
+                    setTimeout(() => {
+                        shareBtn.classList.remove('copied');
+                        tooltip.textContent = '✓ Copied to clipboard!';
+                    }, 2500);
+                }).catch(() => {
+                    // Fallback for older browsers
+                    const ta = document.createElement('textarea');
+                    ta.value = textToCopy;
+                    ta.style.position = 'fixed';
+                    ta.style.opacity = '0';
+                    document.body.appendChild(ta);
+                    ta.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(ta);
+                    shareBtn.classList.add('copied');
+                    setTimeout(() => shareBtn.classList.remove('copied'), 2500);
+                });
             });
         })();
 
