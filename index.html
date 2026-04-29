@@ -147,6 +147,55 @@
         .dark #loader {
             background: #020617;
         }
+
+        /* App Filter Buttons */
+        .app-filter-btn {
+            background: white;
+            color: #475569;
+            border: 1px solid #e2e8f0;
+        }
+        .app-filter-btn:hover {
+            border-color: #6366f1;
+            color: #6366f1;
+        }
+        .app-filter-btn.active {
+            background: #6366f1;
+            color: white;
+            border-color: #6366f1;
+            box-shadow: 0 4px 14px rgba(99, 102, 241, 0.3);
+        }
+        .dark .app-filter-btn {
+            background: rgba(255,255,255,0.03);
+            color: #94a3b8;
+            border-color: rgba(255,255,255,0.1);
+        }
+        .dark .app-filter-btn:hover {
+            border-color: #6366f1;
+            color: #818cf8;
+        }
+        .dark .app-filter-btn.active {
+            background: #6366f1;
+            color: white;
+            border-color: #6366f1;
+        }
+
+        /* App Card Styles */
+        .app-card {
+            animation: appFadeIn 0.4s ease-out both;
+        }
+        .app-card:hover .app-icon-img {
+            transform: scale(1.08);
+        }
+        .app-card .app-icon-wrap {
+            transition: box-shadow 0.3s;
+        }
+        .app-card:hover .app-icon-wrap {
+            box-shadow: 0 8px 30px rgba(99,102,241,0.18);
+        }
+        @keyframes appFadeIn {
+            from { opacity: 0; transform: translateY(16px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-600 dark:bg-darker dark:text-slate-300 overflow-x-hidden selection:bg-primary selection:text-white transition-colors duration-300">
@@ -450,118 +499,64 @@
     <!-- Apps Showcase -->
     <section id="apps" class="py-24 relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row justify-between items-end mb-12 reveal">
+            <!-- Header -->
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 reveal">
                 <div>
                     <h2 class="text-sm font-mono text-primary mb-2">PORTFOLIO</h2>
-                    <h3 class="text-3xl md:text-5xl font-bold text-slate-900 dark:text-white">Featured Apps</h3>
+                    <h3 class="text-3xl md:text-5xl font-bold text-slate-900 dark:text-white">My Apps</h3>
+                    <p class="text-slate-500 dark:text-slate-400 mt-2 text-sm" id="apps-count-label"></p>
                 </div>
-                <a href="https://play.google.com/store/apps/developer?id=SHANKAR+DAKOLIA" target="_blank" class="mt-4 md:mt-0 text-slate-900 dark:text-white border-b border-primary pb-1 hover:text-primary transition-colors">
+                <a href="https://play.google.com/store/apps/developer?id=SHANKAR+DAKOLIA" target="_blank" class="mt-4 md:mt-0 text-slate-900 dark:text-white border-b border-primary pb-1 hover:text-primary transition-colors flex-shrink-0">
                     View All on Play Store <i class="fas fa-arrow-right ml-2"></i>
                 </a>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- App 1: Pet Health Care -->
-                <div class="group relative rounded-2xl overflow-hidden aspect-[4/3] reveal tilt-card cursor-pointer shadow-lg bg-white dark:bg-slate-800">
-                    <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Pet Health Care" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/60 to-transparent opacity-90"></div>
-                    <div class="absolute bottom-0 left-0 p-6 w-full transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                        <div class="flex items-center gap-2 mb-2">
-                            <span class="px-2 py-1 bg-green-500/20 text-green-400 text-xs rounded font-mono border border-green-500/30">LIVE</span>
-                            <span class="px-2 py-1 bg-white/10 text-white text-xs rounded font-mono backdrop-blur-sm">Health</span>
-                        </div>
-                        <h4 class="text-2xl font-bold text-white mb-1">Pet Health Care</h4>
-                        <p class="text-slate-300 text-sm mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Comprehensive health tracking, vaccination records, and cloud backup for your pets.</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.shankardakolia.pethealth" target="_blank" class="inline-flex items-center text-white text-sm font-bold opacity-0 group-hover:opacity-100 transition-all duration-300 delay-100 hover:text-primary">
-                            View on Play Store <i class="fas fa-external-link-alt ml-2"></i>
-                        </a>
-                    </div>
+            <!-- Search & Filters -->
+            <div class="mb-8 reveal">
+                <!-- Search Bar -->
+                <div class="relative mb-6 max-w-md">
+                    <i class="fas fa-search absolute left-4 top-1/2 -translate-y-1/2 text-slate-400"></i>
+                    <input type="text" id="apps-search" placeholder="Search apps..." class="w-full pl-11 pr-4 py-3 bg-white dark:bg-white/5 border border-slate-200 dark:border-white/10 rounded-xl text-slate-900 dark:text-white focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all text-sm">
                 </div>
+                <!-- Category Filter Tabs -->
+                <div class="flex flex-wrap gap-2" id="apps-filters">
+                    <button data-filter="all" class="app-filter-btn active px-4 py-2 rounded-full text-sm font-medium transition-all">All</button>
+                    <button data-filter="featured" class="app-filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all">⭐ Featured</button>
+                    <button data-filter="Education" class="app-filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all">Education</button>
+                    <button data-filter="Finance" class="app-filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all">Finance</button>
+                    <button data-filter="Games" class="app-filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all">Games</button>
+                    <button data-filter="Productivity" class="app-filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all">Productivity</button>
+                    <button data-filter="Tools" class="app-filter-btn px-4 py-2 rounded-full text-sm font-medium transition-all">Tools</button>
+                </div>
+            </div>
 
-                <!-- App 2: Promptex AI -->
-                <div class="group relative rounded-2xl overflow-hidden aspect-[4/3] reveal delay-100 tilt-card cursor-pointer shadow-lg bg-white dark:bg-slate-800">
-                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Promptex AI" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/60 to-transparent opacity-90"></div>
-                    <div class="absolute bottom-0 left-0 p-6 w-full transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                        <div class="flex items-center gap-2 mb-2">
-                            <span class="px-2 py-1 bg-green-500/20 text-green-400 text-xs rounded font-mono border border-green-500/30">LIVE</span>
-                            <span class="px-2 py-1 bg-white/10 text-white text-xs rounded font-mono backdrop-blur-sm">Productivity</span>
-                        </div>
-                        <h4 class="text-2xl font-bold text-white mb-1">Promptex AI</h4>
-                        <p class="text-slate-300 text-sm mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">AI-powered creativity tool to master your prompts and enhance content generation.</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.shankardakolia.promptex" target="_blank" class="inline-flex items-center text-white text-sm font-bold opacity-0 group-hover:opacity-100 transition-all duration-300 delay-100 hover:text-primary">
-                            View on Play Store <i class="fas fa-external-link-alt ml-2"></i>
-                        </a>
-                    </div>
-                </div>
+            <!-- Apps Grid -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6" id="apps-grid">
+                <!-- Dynamically populated -->
+            </div>
 
-                <!-- App 3: CBSE Maths -->
-                <div class="group relative rounded-2xl overflow-hidden aspect-[4/3] reveal delay-200 tilt-card cursor-pointer shadow-lg bg-white dark:bg-slate-800">
-                    <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="CBSE Maths" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/60 to-transparent opacity-90"></div>
-                    <div class="absolute bottom-0 left-0 p-6 w-full transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                        <div class="flex items-center gap-2 mb-2">
-                            <span class="px-2 py-1 bg-green-500/20 text-green-400 text-xs rounded font-mono border border-green-500/30">LIVE</span>
-                            <span class="px-2 py-1 bg-white/10 text-white text-xs rounded font-mono backdrop-blur-sm">Education</span>
-                        </div>
-                        <h4 class="text-2xl font-bold text-white mb-1">CBSE 10th Maths Prep</h4>
-                        <p class="text-slate-300 text-sm mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Complete preparation guide for CBSE Class 10th Mathematics with solved papers.</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.shankardakolia.cbsemaths" target="_blank" class="inline-flex items-center text-white text-sm font-bold opacity-0 group-hover:opacity-100 transition-all duration-300 delay-100 hover:text-primary">
-                            View on Play Store <i class="fas fa-external-link-alt ml-2"></i>
-                        </a>
-                    </div>
-                </div>
+            <!-- Loading Skeleton -->
+            <div id="apps-loading" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6">
+                <div class="animate-pulse"><div class="bg-slate-200 dark:bg-white/5 rounded-2xl aspect-square"></div><div class="mt-3 h-3 bg-slate-200 dark:bg-white/5 rounded w-3/4"></div><div class="mt-2 h-2 bg-slate-200 dark:bg-white/5 rounded w-1/2"></div></div>
+                <div class="animate-pulse"><div class="bg-slate-200 dark:bg-white/5 rounded-2xl aspect-square"></div><div class="mt-3 h-3 bg-slate-200 dark:bg-white/5 rounded w-3/4"></div><div class="mt-2 h-2 bg-slate-200 dark:bg-white/5 rounded w-1/2"></div></div>
+                <div class="animate-pulse"><div class="bg-slate-200 dark:bg-white/5 rounded-2xl aspect-square"></div><div class="mt-3 h-3 bg-slate-200 dark:bg-white/5 rounded w-3/4"></div><div class="mt-2 h-2 bg-slate-200 dark:bg-white/5 rounded w-1/2"></div></div>
+                <div class="animate-pulse"><div class="bg-slate-200 dark:bg-white/5 rounded-2xl aspect-square"></div><div class="mt-3 h-3 bg-slate-200 dark:bg-white/5 rounded w-3/4"></div><div class="mt-2 h-2 bg-slate-200 dark:bg-white/5 rounded w-1/2"></div></div>
+                <div class="animate-pulse hidden sm:block"><div class="bg-slate-200 dark:bg-white/5 rounded-2xl aspect-square"></div><div class="mt-3 h-3 bg-slate-200 dark:bg-white/5 rounded w-3/4"></div><div class="mt-2 h-2 bg-slate-200 dark:bg-white/5 rounded w-1/2"></div></div>
+                <div class="animate-pulse hidden lg:block"><div class="bg-slate-200 dark:bg-white/5 rounded-2xl aspect-square"></div><div class="mt-3 h-3 bg-slate-200 dark:bg-white/5 rounded w-3/4"></div><div class="mt-2 h-2 bg-slate-200 dark:bg-white/5 rounded w-1/2"></div></div>
+            </div>
 
-                <!-- App 4: CBSE Chemistry -->
-                <div class="group relative rounded-2xl overflow-hidden aspect-[4/3] reveal tilt-card cursor-pointer shadow-lg bg-white dark:bg-slate-800">
-                    <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="CBSE Chemistry" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/60 to-transparent opacity-90"></div>
-                    <div class="absolute bottom-0 left-0 p-6 w-full transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                        <div class="flex items-center gap-2 mb-2">
-                            <span class="px-2 py-1 bg-green-500/20 text-green-400 text-xs rounded font-mono border border-green-500/30">LIVE</span>
-                            <span class="px-2 py-1 bg-white/10 text-white text-xs rounded font-mono backdrop-blur-sm">Education</span>
-                        </div>
-                        <h4 class="text-2xl font-bold text-white mb-1">CBSE 10th Chemistry</h4>
-                        <p class="text-slate-300 text-sm mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Interactive chemistry learning app with periodic table and chemical equation solvers.</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.shankardakolia.cbsechemistry" target="_blank" class="inline-flex items-center text-white text-sm font-bold opacity-0 group-hover:opacity-100 transition-all duration-300 delay-100 hover:text-primary">
-                            View on Play Store <i class="fas fa-external-link-alt ml-2"></i>
-                        </a>
-                    </div>
-                </div>
+            <!-- Empty State -->
+            <div id="apps-empty" class="hidden text-center py-16">
+                <div class="text-6xl mb-4">🔍</div>
+                <h4 class="text-xl font-bold text-slate-900 dark:text-white mb-2">No apps found</h4>
+                <p class="text-slate-500 dark:text-slate-400">Try a different search or category.</p>
+            </div>
 
-                <!-- App 5: CBSE Biology -->
-                <div class="group relative rounded-2xl overflow-hidden aspect-[4/3] reveal delay-100 tilt-card cursor-pointer shadow-lg bg-white dark:bg-slate-800">
-                    <img src="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="CBSE Biology" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/60 to-transparent opacity-90"></div>
-                    <div class="absolute bottom-0 left-0 p-6 w-full transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                        <div class="flex items-center gap-2 mb-2">
-                            <span class="px-2 py-1 bg-green-500/20 text-green-400 text-xs rounded font-mono border border-green-500/30">LIVE</span>
-                            <span class="px-2 py-1 bg-white/10 text-white text-xs rounded font-mono backdrop-blur-sm">Education</span>
-                        </div>
-                        <h4 class="text-2xl font-bold text-white mb-1">CBSE 10th Biology</h4>
-                        <p class="text-slate-300 text-sm mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Visual biology tutorials, diagrams, and MCQ practice tests for board exams.</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.shankardakolia.cbsebiology" target="_blank" class="inline-flex items-center text-white text-sm font-bold opacity-0 group-hover:opacity-100 transition-all duration-300 delay-100 hover:text-primary">
-                            View on Play Store <i class="fas fa-external-link-alt ml-2"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- App 6: CBSE Physics -->
-                <div class="group relative rounded-2xl overflow-hidden aspect-[4/3] reveal delay-200 tilt-card cursor-pointer shadow-lg bg-white dark:bg-slate-800">
-                    <img src="https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="CBSE Physics" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/60 to-transparent opacity-90"></div>
-                    <div class="absolute bottom-0 left-0 p-6 w-full transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                        <div class="flex items-center gap-2 mb-2">
-                            <span class="px-2 py-1 bg-green-500/20 text-green-400 text-xs rounded font-mono border border-green-500/30">LIVE</span>
-                            <span class="px-2 py-1 bg-white/10 text-white text-xs rounded font-mono backdrop-blur-sm">Education</span>
-                        </div>
-                        <h4 class="text-2xl font-bold text-white mb-1">CBSE 10th Physics</h4>
-                        <p class="text-slate-300 text-sm mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Physics formulas, numerical solvers, and conceptual learning for class 10.</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.shankardakolia.cbsephysics" target="_blank" class="inline-flex items-center text-white text-sm font-bold opacity-0 group-hover:opacity-100 transition-all duration-300 delay-100 hover:text-primary">
-                            View on Play Store <i class="fas fa-external-link-alt ml-2"></i>
-                        </a>
-                    </div>
-                </div>
+            <!-- Load More Button -->
+            <div class="text-center mt-10" id="load-more-container">
+                <button id="load-more-btn" class="hidden px-8 py-3 bg-white dark:bg-white/5 border border-slate-200 dark:border-white/10 rounded-full text-slate-700 dark:text-white font-medium hover:bg-primary hover:text-white hover:border-primary dark:hover:bg-primary transition-all shadow-sm hover:shadow-lg hover:-translate-y-0.5">
+                    Load More Apps <i class="fas fa-chevron-down ml-2"></i>
+                </button>
             </div>
         </div>
     </section>
@@ -772,6 +767,145 @@
         });
 
         // Smooth Scroll for Anchor Links
+        // ==========================================
+        // DYNAMIC APPS SECTION
+        // ==========================================
+        (function() {
+            const APPS_PER_PAGE = 18;
+            let allApps = [];
+            let filteredApps = [];
+            let currentPage = 1;
+            let currentFilter = 'all';
+            let searchQuery = '';
+
+            const grid = document.getElementById('apps-grid');
+            const loading = document.getElementById('apps-loading');
+            const emptyState = document.getElementById('apps-empty');
+            const loadMoreBtn = document.getElementById('load-more-btn');
+            const searchInput = document.getElementById('apps-search');
+            const countLabel = document.getElementById('apps-count-label');
+
+            // Category color mapping
+            const catColors = {
+                'Education': { bg: 'bg-blue-100 dark:bg-blue-500/20', text: 'text-blue-600 dark:text-blue-400' },
+                'Finance': { bg: 'bg-emerald-100 dark:bg-emerald-500/20', text: 'text-emerald-600 dark:text-emerald-400' },
+                'Games': { bg: 'bg-orange-100 dark:bg-orange-500/20', text: 'text-orange-600 dark:text-orange-400' },
+                'Productivity': { bg: 'bg-purple-100 dark:bg-purple-500/20', text: 'text-purple-600 dark:text-purple-400' },
+                'Tools': { bg: 'bg-slate-200 dark:bg-slate-500/20', text: 'text-slate-600 dark:text-slate-400' },
+            };
+
+            function createAppCard(app, index) {
+                const colors = catColors[app.category] || catColors['Tools'];
+                const delay = (index % APPS_PER_PAGE) * 0.04;
+                const card = document.createElement('a');
+                card.href = app.play_url;
+                card.target = '_blank';
+                card.rel = 'noopener noreferrer';
+                card.className = 'app-card group block text-center';
+                card.style.animationDelay = `${delay}s`;
+                card.innerHTML = `
+                    <div class="app-icon-wrap relative mx-auto w-full aspect-square rounded-[22%] overflow-hidden bg-white dark:bg-white/5 border border-slate-200/80 dark:border-white/10 shadow-sm">
+                        <img src="icons/${app.id}.png" alt="${app.name}" loading="lazy" class="app-icon-img w-full h-full object-cover transition-transform duration-300">
+                        ${app.featured ? '<div class="absolute top-1 right-1 w-5 h-5 flex items-center justify-center rounded-full bg-yellow-400 text-[10px] shadow-sm" title="Featured">⭐</div>' : ''}
+                    </div>
+                    <h4 class="mt-2.5 text-xs sm:text-sm font-semibold text-slate-800 dark:text-white leading-tight line-clamp-2 group-hover:text-primary transition-colors">${app.name}</h4>
+                    <span class="inline-block mt-1 text-[10px] sm:text-xs px-2 py-0.5 rounded-full ${colors.bg} ${colors.text} font-medium">${app.category}</span>
+                    ${app.installs > 0 ? `<p class="mt-0.5 text-[10px] text-slate-400 dark:text-slate-500">${app.installs}+ installs</p>` : ''}
+                `;
+                return card;
+            }
+
+            function applyFilters() {
+                const q = searchQuery.toLowerCase().trim();
+                filteredApps = allApps.filter(app => {
+                    const matchesFilter = currentFilter === 'all'
+                        || (currentFilter === 'featured' && app.featured)
+                        || app.category === currentFilter;
+                    const matchesSearch = !q
+                        || app.name.toLowerCase().includes(q)
+                        || app.category.toLowerCase().includes(q)
+                        || app.id.toLowerCase().includes(q);
+                    return matchesFilter && matchesSearch;
+                });
+                currentPage = 1;
+                renderApps();
+            }
+
+            function renderApps() {
+                grid.innerHTML = '';
+                const end = currentPage * APPS_PER_PAGE;
+                const visible = filteredApps.slice(0, end);
+
+                if (visible.length === 0) {
+                    emptyState.classList.remove('hidden');
+                    loadMoreBtn.classList.add('hidden');
+                } else {
+                    emptyState.classList.add('hidden');
+                    visible.forEach((app, i) => grid.appendChild(createAppCard(app, i)));
+                    
+                    if (end < filteredApps.length) {
+                        loadMoreBtn.classList.remove('hidden');
+                        loadMoreBtn.innerHTML = `Load More Apps (${filteredApps.length - end} remaining) <i class="fas fa-chevron-down ml-2"></i>`;
+                    } else {
+                        loadMoreBtn.classList.add('hidden');
+                    }
+                }
+
+                countLabel.textContent = `Showing ${visible.length} of ${filteredApps.length} apps${allApps.length !== filteredApps.length ? ` (${allApps.length} total)` : ''}`;
+            }
+
+            // Fetch and init
+            fetch('apps.json')
+                .then(r => r.json())
+                .then(data => {
+                    allApps = data.apps || [];
+                    // Sort: featured first, then by installs desc
+                    allApps.sort((a, b) => {
+                        if (a.featured !== b.featured) return b.featured ? 1 : -1;
+                        return b.installs - a.installs;
+                    });
+                    loading.classList.add('hidden');
+                    filteredApps = [...allApps];
+                    renderApps();
+
+                    // Update hero stats counter dynamically
+                    const liveAppsCounter = document.querySelector('.counter[data-target="6"]');
+                    if (liveAppsCounter) {
+                        liveAppsCounter.setAttribute('data-target', allApps.length);
+                    }
+                })
+                .catch(err => {
+                    console.error('Failed to load apps:', err);
+                    loading.innerHTML = '<p class="col-span-full text-center text-red-500">Failed to load apps.</p>';
+                });
+
+            // Filter button clicks
+            document.querySelectorAll('.app-filter-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.app-filter-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    currentFilter = btn.dataset.filter;
+                    applyFilters();
+                });
+            });
+
+            // Search with debounce
+            let debounceTimer;
+            searchInput.addEventListener('input', (e) => {
+                clearTimeout(debounceTimer);
+                debounceTimer = setTimeout(() => {
+                    searchQuery = e.target.value;
+                    applyFilters();
+                }, 250);
+            });
+
+            // Load more
+            loadMoreBtn.addEventListener('click', () => {
+                currentPage++;
+                renderApps();
+            });
+        })();
+
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();

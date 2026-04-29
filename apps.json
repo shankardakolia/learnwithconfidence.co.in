@@ -1,0 +1,2026 @@
+{
+  "version": 1,
+  "last_updated": "2026-04-29",
+  "apps": [
+    {
+      "id": "eightballpoolgame",
+      "name": "8 Ball Pool Game",
+      "package": "com.shankardakolia.eightballpoolgame",
+      "category": "Games",
+      "installs": 13,
+      "updated": "2026-04-03",
+      "featured": true,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.eightballpoolgame"
+    },
+    {
+      "id": "aiexpensetracker",
+      "name": "AI Expense Tracker",
+      "package": "com.shankardakolia.aiexpensetracker",
+      "category": "Productivity",
+      "installs": 5,
+      "updated": "2026-03-13",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.aiexpensetracker"
+    },
+    {
+      "id": "agecalc",
+      "name": "Age Calculator",
+      "package": "com.shankardakolia.agecalc",
+      "category": "Finance",
+      "installs": 2,
+      "updated": "2026-03-30",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.agecalc"
+    },
+    {
+      "id": "anagramgenerator",
+      "name": "Anagram Generator",
+      "package": "com.shankardakolia.anagramgenerator",
+      "category": "Tools",
+      "installs": 1,
+      "updated": "2026-04-20",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.anagramgenerator"
+    },
+    {
+      "id": "antonyms",
+      "name": "Antonym Finder",
+      "package": "com.shankardakolia.antonyms",
+      "category": "Tools",
+      "installs": 6,
+      "updated": "2026-03-30",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.antonyms"
+    },
+    {
+      "id": "avoidthebox",
+      "name": "Avoid The Box Game",
+      "package": "com.shankardakolia.avoidthebox",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-04-17",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.avoidthebox"
+    },
+    {
+      "id": "bmicalculatorlite",
+      "name": "BMI Calculator Lite",
+      "package": "com.shankardakolia.bmicalculatorlite",
+      "category": "Finance",
+      "installs": 0,
+      "updated": "2026-04-13",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.bmicalculatorlite"
+    },
+    {
+      "id": "bmrcalculatorlite",
+      "name": "BMR Calculator Lite",
+      "package": "com.shankardakolia.bmrcalculatorlite",
+      "category": "Finance",
+      "installs": 0,
+      "updated": "2026-04-23",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.bmrcalculatorlite"
+    },
+    {
+      "id": "billpaymenttracker",
+      "name": "Bill Payment Tracker",
+      "package": "com.shankardakolia.billpaymenttracker",
+      "category": "Productivity",
+      "installs": 1,
+      "updated": "2026-04-13",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.billpaymenttracker"
+    },
+    {
+      "id": "breakreminder",
+      "name": "Break Reminder Lite",
+      "package": "com.shankardakolia.breakreminder",
+      "category": "Finance",
+      "installs": 2,
+      "updated": "2026-03-30",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.breakreminder"
+    },
+    {
+      "id": "breathingtimer",
+      "name": "Breathing Timer",
+      "package": "com.shankardakolia.breathingtimer",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-13",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.breathingtimer"
+    },
+    {
+      "id": "brickbreaker",
+      "name": "Brick Breaker",
+      "package": "com.shankardakolia.brickbreaker",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-03",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.brickbreaker"
+    },
+    {
+      "id": "bubbleshooter",
+      "name": "Bubble Shooter",
+      "package": "com.shankardakolia.bubbleshooter",
+      "category": "Games",
+      "installs": 1,
+      "updated": "2026-04-03",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.bubbleshooter"
+    },
+    {
+      "id": "cbse10biologyprep",
+      "name": "CBSE 10th Standard Biology",
+      "package": "com.shankardakolia.cbse10biologyprep",
+      "category": "Productivity",
+      "installs": 9,
+      "updated": "2026-03-13",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.cbse10biologyprep"
+    },
+    {
+      "id": "cbse10chemistryprep",
+      "name": "CBSE 10th Standard Chemistry",
+      "package": "com.shankardakolia.cbse10chemistryprep",
+      "category": "Finance",
+      "installs": 11,
+      "updated": "2026-03-13",
+      "featured": true,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.cbse10chemistryprep"
+    },
+    {
+      "id": "cbse10mathsprep",
+      "name": "CBSE 10th Standard Maths Prep",
+      "package": "com.shankardakolia.cbse10mathsprep",
+      "category": "Education",
+      "installs": 21,
+      "updated": "2026-03-13",
+      "featured": true,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.cbse10mathsprep"
+    },
+    {
+      "id": "cbse10physicsprep",
+      "name": "CBSE 10th Standard Physics",
+      "package": "com.shankardakolia.cbse10physicsprep",
+      "category": "Education",
+      "installs": 12,
+      "updated": "2026-03-13",
+      "featured": true,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.cbse10physicsprep"
+    },
+    {
+      "id": "capitals",
+      "name": "Capital Cities Quiz",
+      "package": "com.shankardakolia.capitals",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-03-31",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.capitals"
+    },
+    {
+      "id": "carracing",
+      "name": "Car Racing",
+      "package": "com.shankardakolia.carracing",
+      "category": "Tools",
+      "installs": 3,
+      "updated": "2026-04-03",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.carracing"
+    },
+    {
+      "id": "checklist",
+      "name": "Checklist Lite",
+      "package": "com.shankardakolia.checklist",
+      "category": "Tools",
+      "installs": 1,
+      "updated": "2026-03-31",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.checklist"
+    },
+    {
+      "id": "chess",
+      "name": "Chess",
+      "package": "com.shankardakolia.chess",
+      "category": "Tools",
+      "installs": 93,
+      "updated": "2026-04-03",
+      "featured": true,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.chess"
+    },
+    {
+      "id": "cointoss",
+      "name": "Coin Toss Simulator",
+      "package": "com.shankardakolia.cointoss",
+      "category": "Tools",
+      "installs": 3,
+      "updated": "2026-03-31",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.cointoss"
+    },
+    {
+      "id": "colormatch",
+      "name": "Color Match Tap",
+      "package": "com.shankardakolia.colormatch",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-03-31",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.colormatch"
+    },
+    {
+      "id": "colorswitchtap",
+      "name": "Color Switch Tap",
+      "package": "com.shankardakolia.colorswitchtap",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-04-24",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.colorswitchtap"
+    },
+    {
+      "id": "colortapspeedtest",
+      "name": "Color Tap Speed Test",
+      "package": "com.shankardakolia.colortapspeedtest",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-04-24",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.colortapspeedtest"
+    },
+    {
+      "id": "commonphrasesviewer",
+      "name": "Common Phrases Viewer",
+      "package": "com.shankardakolia.commonphrasesviewer",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-14",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.commonphrasesviewer"
+    },
+    {
+      "id": "complimentvsinsultwheel",
+      "name": "Compliment vs Insult Wheel",
+      "package": "com.shankardakolia.complimentvsinsultwheel",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-26",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.complimentvsinsultwheel"
+    },
+    {
+      "id": "countdowntimerlite",
+      "name": "Countdown Timer Lite",
+      "package": "com.shankardakolia.countdowntimerlite",
+      "category": "Tools",
+      "installs": 2,
+      "updated": "2026-04-08",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.countdowntimerlite"
+    },
+    {
+      "id": "dailyachievementlog",
+      "name": "Daily Achievement Log",
+      "package": "com.shankardakolia.dailyachievementlog",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-04-13",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.dailyachievementlog"
+    },
+    {
+      "id": "dailyactivitylog",
+      "name": "Daily Activity Log",
+      "package": "com.shankardakolia.dailyactivitylog",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-04-23",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.dailyactivitylog"
+    },
+    {
+      "id": "affirmations",
+      "name": "Daily Affirmations",
+      "package": "com.shankardakolia.affirmations",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-03-31",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.affirmations"
+    },
+    {
+      "id": "dailyenergytracker",
+      "name": "Daily Energy Tracker",
+      "package": "com.shankardakolia.dailyenergytracker",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-04-13",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.dailyenergytracker"
+    },
+    {
+      "id": "dailyexpensenoteslite",
+      "name": "Daily Expense Notes Lite",
+      "package": "com.shankardakolia.dailyexpensenoteslite",
+      "category": "Tools",
+      "installs": 1,
+      "updated": "2026-04-20",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.dailyexpensenoteslite"
+    },
+    {
+      "id": "dailyfoodlog",
+      "name": "Daily Food Log",
+      "package": "com.shankardakolia.dailyfoodlog",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-04-09",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.dailyfoodlog"
+    },
+    {
+      "id": "dailygratitudeoneline",
+      "name": "Daily Gratitude 1 Line",
+      "package": "com.shankardakolia.dailygratitudeoneline",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-11",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.dailygratitudeoneline"
+    },
+    {
+      "id": "dailyhabitchecklite",
+      "name": "Daily Habit Check Lite",
+      "package": "com.shankardakolia.dailyhabitchecklite",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-23",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.dailyhabitchecklite"
+    },
+    {
+      "id": "dailymoodemojilogger",
+      "name": "Daily Mood Emoji Logger",
+      "package": "com.shankardakolia.dailymoodemojilogger",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-04-20",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.dailymoodemojilogger"
+    },
+    {
+      "id": "dailynotesmini",
+      "name": "Daily Notes Mini",
+      "package": "com.shankardakolia.dailynotesmini",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-23",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.dailynotesmini"
+    },
+    {
+      "id": "dailyplanner",
+      "name": "Daily Planner",
+      "package": "com.shankardakolia.dailyplanner",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-03-22",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.dailyplanner"
+    },
+    {
+      "id": "quotesaver",
+      "name": "Daily Quote Saver",
+      "package": "com.shankardakolia.quotesaver",
+      "category": "Tools",
+      "installs": 1,
+      "updated": "2026-04-01",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.quotesaver"
+    },
+    {
+      "id": "reflection",
+      "name": "Daily Reflection",
+      "package": "com.shankardakolia.reflection",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-01",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.reflection"
+    },
+    {
+      "id": "dailyreflectionmini",
+      "name": "Daily Reflection Mini",
+      "package": "com.shankardakolia.dailyreflectionmini",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-21",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.dailyreflectionmini"
+    },
+    {
+      "id": "dailytaskloglite",
+      "name": "Daily Task Log Lite",
+      "package": "com.shankardakolia.dailytaskloglite",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-04-23",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.dailytaskloglite"
+    },
+    {
+      "id": "dailythoughtmini",
+      "name": "Daily Thought Mini",
+      "package": "com.shankardakolia.dailythoughtmini",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-09",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.dailythoughtmini"
+    },
+    {
+      "id": "dailythoughtsaver",
+      "name": "Daily Thought Saver",
+      "package": "com.shankardakolia.dailythoughtsaver",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-23",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.dailythoughtsaver"
+    },
+    {
+      "id": "dailytimelog",
+      "name": "Daily Time Log",
+      "package": "com.shankardakolia.dailytimelog",
+      "category": "Productivity",
+      "installs": 1,
+      "updated": "2026-04-13",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.dailytimelog"
+    },
+    {
+      "id": "dailywins",
+      "name": "Daily Wins Tracker",
+      "package": "com.shankardakolia.dailywins",
+      "category": "Productivity",
+      "installs": 1,
+      "updated": "2026-04-01",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.dailywins"
+    },
+    {
+      "id": "daysbetween",
+      "name": "Days Between Dates",
+      "package": "com.shankardakolia.daysbetween",
+      "category": "Tools",
+      "installs": 19,
+      "updated": "2026-04-06",
+      "featured": true,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.daysbetween"
+    },
+    {
+      "id": "decisionwheel",
+      "name": "Decision Wheel",
+      "package": "com.shankardakolia.decisionwheel",
+      "category": "Tools",
+      "installs": 1,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.decisionwheel"
+    },
+    {
+      "id": "diceroller",
+      "name": "Dice Roller",
+      "package": "com.shankardakolia.diceroller",
+      "category": "Tools",
+      "installs": 1,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.diceroller"
+    },
+    {
+      "id": "emicalculatorlite",
+      "name": "EMI Calculator Lite",
+      "package": "com.shankardakolia.emicalculatorlite",
+      "category": "Finance",
+      "installs": 0,
+      "updated": "2026-04-09",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.emicalculatorlite"
+    },
+    {
+      "id": "electricityestimator",
+      "name": "Electricity Bill Estimator",
+      "package": "com.shankardakolia.electricityestimator",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-10",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.electricityestimator"
+    },
+    {
+      "id": "endlesstaprunner",
+      "name": "Endless Tap Runner",
+      "package": "com.shankardakolia.endlesstaprunner",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-04-17",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.endlesstaprunner"
+    },
+    {
+      "id": "english_grammar_practice",
+      "name": "English Grammar Practice",
+      "package": "com.shankardakolia.english_grammar_practice",
+      "category": "Education",
+      "installs": 5,
+      "updated": "2026-03-25",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.english_grammar_practice"
+    },
+    {
+      "id": "englishtensesguide",
+      "name": "English Tenses Quick Guide",
+      "package": "com.shankardakolia.englishtensesguide",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-14",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.englishtensesguide"
+    },
+    {
+      "id": "excusemaker",
+      "name": "Excuse Maker",
+      "package": "com.shankardakolia.excusemaker",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-26",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.excusemaker"
+    },
+    {
+      "id": "eyeresttimer",
+      "name": "Eye Rest Timer",
+      "package": "com.shankardakolia.eyeresttimer",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-13",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.eyeresttimer"
+    },
+    {
+      "id": "fakecalllog",
+      "name": "Fake Call Log",
+      "package": "com.shankardakolia.fakecalllog",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-04-26",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.fakecalllog"
+    },
+    {
+      "id": "flashcards",
+      "name": "Flashcard Learning",
+      "package": "com.shankardakolia.flashcards",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-03-26",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.flashcards"
+    },
+    {
+      "id": "focustimer",
+      "name": "Focus Timer",
+      "package": "com.shankardakolia.focustimer",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-08",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.focustimer"
+    },
+    {
+      "id": "fuelcostcalculator",
+      "name": "Fuel Cost Calculator",
+      "package": "com.shankardakolia.fuelcostcalculator",
+      "category": "Finance",
+      "installs": 2,
+      "updated": "2026-04-14",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.fuelcostcalculator"
+    },
+    {
+      "id": "gk",
+      "name": "GK One Liners",
+      "package": "com.shankardakolia.gk",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.gk"
+    },
+    {
+      "id": "gstcalculatorlite",
+      "name": "GST Calculator Lite",
+      "package": "com.shankardakolia.gstcalculatorlite",
+      "category": "Finance",
+      "installs": 0,
+      "updated": "2026-04-20",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.gstcalculatorlite"
+    },
+    {
+      "id": "goaltracker",
+      "name": "Goal Tracker",
+      "package": "com.shankardakolia.goaltracker",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-03-21",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.goaltracker"
+    },
+    {
+      "id": "gratitude",
+      "name": "Gratitude Journal",
+      "package": "com.shankardakolia.gratitude",
+      "category": "Tools",
+      "installs": 2,
+      "updated": "2026-04-08",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.gratitude"
+    },
+    {
+      "id": "grocerystock",
+      "name": "Grocery Stock Tracker",
+      "package": "com.shankardakolia.grocerystock",
+      "category": "Productivity",
+      "installs": 1,
+      "updated": "2026-03-26",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.grocerystock"
+    },
+    {
+      "id": "habitscoretracker",
+      "name": "Habit Score Tracker",
+      "package": "com.shankardakolia.habitscoretracker",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-04-21",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.habitscoretracker"
+    },
+    {
+      "id": "habitstreakcounterlite",
+      "name": "Habit Streak Counter Lite",
+      "package": "com.shankardakolia.habitstreakcounterlite",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-23",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.habitstreakcounterlite"
+    },
+    {
+      "id": "habitstreak",
+      "name": "Habit Streak Lite",
+      "package": "com.shankardakolia.habitstreak",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.habitstreak"
+    },
+    {
+      "id": "habittracker",
+      "name": "Habit Tracker",
+      "package": "com.shankardakolia.habittracker",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-03-20",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.habittracker"
+    },
+    {
+      "id": "historyfacts",
+      "name": "History Facts Viewer",
+      "package": "com.shankardakolia.historyfacts",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-07",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.historyfacts"
+    },
+    {
+      "id": "cbse12physicsprep",
+      "name": "ICSE 10th Standard Biology",
+      "package": "com.dhirajkotilwal.cbse12physicsprep",
+      "category": "Productivity",
+      "installs": 13,
+      "updated": "2026-03-15",
+      "featured": true,
+      "play_url": "https://play.google.com/store/apps/details?id=com.dhirajkotilwal.cbse12physicsprep"
+    },
+    {
+      "id": "icse10chemistryprep",
+      "name": "ICSE 10th Standard Chemistry",
+      "package": "com.shankardakolia.icse10chemistryprep",
+      "category": "Finance",
+      "installs": 10,
+      "updated": "2026-03-12",
+      "featured": true,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.icse10chemistryprep"
+    },
+    {
+      "id": "icse10mathsprep",
+      "name": "ICSE 10th Standard Maths Prep",
+      "package": "com.shankardakolia.icse10mathsprep",
+      "category": "Education",
+      "installs": 2,
+      "updated": "2026-03-15",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.icse10mathsprep"
+    },
+    {
+      "id": "icse10physicsprep",
+      "name": "ICSE 10th Standard Physics",
+      "package": "com.shankardakolia.icse10physicsprep",
+      "category": "Education",
+      "installs": 12,
+      "updated": "2026-03-12",
+      "featured": true,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.icse10physicsprep"
+    },
+    {
+      "id": "icse12biologyprep",
+      "name": "ICSE 12th Standard Biology",
+      "package": "com.shankardakolia.icse12biologyprep",
+      "category": "Productivity",
+      "installs": 4,
+      "updated": "2026-03-16",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.icse12biologyprep"
+    },
+    {
+      "id": "icse12chemistryprep",
+      "name": "ICSE 12th Standard Chemistry",
+      "package": "com.shankardakolia.icse12chemistryprep",
+      "category": "Finance",
+      "installs": 3,
+      "updated": "2026-03-16",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.icse12chemistryprep"
+    },
+    {
+      "id": "icse12mathsprep",
+      "name": "ICSE 12th Standard Maths",
+      "package": "com.shankardakolia.icse12mathsprep",
+      "category": "Education",
+      "installs": 0,
+      "updated": "2026-03-16",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.icse12mathsprep"
+    },
+    {
+      "id": "icse12physicsprep",
+      "name": "ICSE 12th Standard Physics",
+      "package": "com.shankardakolia.icse12physicsprep",
+      "category": "Education",
+      "installs": 5,
+      "updated": "2026-03-12",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.icse12physicsprep"
+    },
+    {
+      "id": "idioms",
+      "name": "Idiom Viewer",
+      "package": "com.shankardakolia.idioms",
+      "category": "Tools",
+      "installs": 3,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.idioms"
+    },
+    {
+      "id": "intervaltimerlite",
+      "name": "Interval Timer Lite",
+      "package": "com.shankardakolia.intervaltimerlite",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-14",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.intervaltimerlite"
+    },
+    {
+      "id": "kidsalphabetlearning",
+      "name": "Kids Alphabet Learning",
+      "package": "com.shankardakolia.kidsalphabetlearning",
+      "category": "Tools",
+      "installs": 1,
+      "updated": "2026-04-03",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.kidsalphabetlearning"
+    },
+    {
+      "id": "kids_maths_game",
+      "name": "Kids Maths Game",
+      "package": "com.kidsmaths.kids_maths_game",
+      "category": "Games",
+      "installs": 2,
+      "updated": "2026-04-03",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.kidsmaths.kids_maths_game"
+    },
+    {
+      "id": "loaninterestcalculator",
+      "name": "Loan Interest Calculator",
+      "package": "com.shankardakolia.loaninterestcalculator",
+      "category": "Finance",
+      "installs": 0,
+      "updated": "2026-04-20",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.loaninterestcalculator"
+    },
+    {
+      "id": "luckynumberfinder",
+      "name": "Lucky Number Finder",
+      "package": "com.shankardakolia.luckynumberfinder",
+      "category": "Tools",
+      "installs": 12,
+      "updated": "2026-04-10",
+      "featured": true,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.luckynumberfinder"
+    },
+    {
+      "id": "mathformulas",
+      "name": "Math Formula Viewer",
+      "package": "com.shankardakolia.mathformulas",
+      "category": "Education",
+      "installs": 0,
+      "updated": "2026-04-08",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.mathformulas"
+    },
+    {
+      "id": "medtracker",
+      "name": "Medication Tracker",
+      "package": "com.shankardakolia.medtracker",
+      "category": "Productivity",
+      "installs": 11,
+      "updated": "2026-03-27",
+      "featured": true,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.medtracker"
+    },
+    {
+      "id": "meditationbelltimer",
+      "name": "Meditation Bell Timer",
+      "package": "com.shankardakolia.meditationbelltimer",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-20",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.meditationbelltimer"
+    },
+    {
+      "id": "memoryflip",
+      "name": "Memory Flip Lite",
+      "package": "com.shankardakolia.memoryflip",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-08",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.memoryflip"
+    },
+    {
+      "id": "moodlogger",
+      "name": "Mood Logger Lite",
+      "package": "com.shankardakolia.moodlogger",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-04-09",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.moodlogger"
+    },
+    {
+      "id": "moodtracker",
+      "name": "Mood Tracker",
+      "package": "com.shankardakolia.moodtracker",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.moodtracker"
+    },
+    {
+      "id": "motivation",
+      "name": "Motivation Generator",
+      "package": "com.shankardakolia.motivation",
+      "category": "Tools",
+      "installs": 3,
+      "updated": "2026-04-03",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.motivation"
+    },
+    {
+      "id": "multicounter",
+      "name": "Multi Counter",
+      "package": "com.shankardakolia.multicounter",
+      "category": "Tools",
+      "installs": 2,
+      "updated": "2026-04-03",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.multicounter"
+    },
+    {
+      "id": "namegenerator",
+      "name": "Name Ideas Generator",
+      "package": "com.shankardakolia.namegenerator",
+      "category": "Tools",
+      "installs": 4,
+      "updated": "2026-03-27",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.namegenerator"
+    },
+    {
+      "id": "notes",
+      "name": "Notes",
+      "package": "com.shankardakolia.notes",
+      "category": "Tools",
+      "installs": 1,
+      "updated": "2026-03-21",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.notes"
+    },
+    {
+      "id": "numberguess",
+      "name": "Number Guessing Game",
+      "package": "com.shankardakolia.numberguess",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-04-03",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.numberguess"
+    },
+    {
+      "id": "numbermergelite",
+      "name": "Number Merge Lite",
+      "package": "com.shankardakolia.numbermergelite",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-14",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.numbermergelite"
+    },
+    {
+      "id": "oddone",
+      "name": "Odd One Out",
+      "package": "com.shankardakolia.oddone",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.oddone"
+    },
+    {
+      "id": "budgetplanner",
+      "name": "Offline Budget Planner",
+      "package": "com.shankardakolia.budgetplanner",
+      "category": "Productivity",
+      "installs": 2,
+      "updated": "2026-03-27",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.budgetplanner"
+    },
+    {
+      "id": "resumebuilder",
+      "name": "Offline Resume Builder",
+      "package": "com.shankardakolia.resumebuilder",
+      "category": "Tools",
+      "installs": 2,
+      "updated": "2026-03-29",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.resumebuilder"
+    },
+    {
+      "id": "onetapcolormatch",
+      "name": "One Tap Color Match",
+      "package": "com.shankardakolia.onetapcolormatch",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-04-24",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.onetapcolormatch"
+    },
+    {
+      "id": "onetapjump",
+      "name": "One Tap Jump Game",
+      "package": "com.shankardakolia.onetapjump",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-04-20",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.onetapjump"
+    },
+    {
+      "id": "pattern",
+      "name": "Pattern Repeat Game",
+      "package": "com.shankardakolia.pattern",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.pattern"
+    },
+    {
+      "id": "percentagecalc",
+      "name": "Percentage Calculator",
+      "package": "com.shankardakolia.percentagecalc",
+      "category": "Finance",
+      "installs": 1,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.percentagecalc"
+    },
+    {
+      "id": "percentagesplitcalculator",
+      "name": "Percentage Split Calculator",
+      "package": "com.shankardakolia.percentagesplitcalculator",
+      "category": "Finance",
+      "installs": 0,
+      "updated": "2026-04-23",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.percentagesplitcalculator"
+    },
+    {
+      "id": "knowledgebase",
+      "name": "Personal Knowledge Base",
+      "package": "com.shankardakolia.knowledgebase",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-03-28",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.knowledgebase"
+    },
+    {
+      "id": "personalscore",
+      "name": "Personal Score Tracker",
+      "package": "com.shankardakolia.personalscore",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.personalscore"
+    },
+    {
+      "id": "PetHealthCare",
+      "name": "Pet Health Care",
+      "package": "com.shankardakolia.PetHealthCare",
+      "category": "Tools",
+      "installs": 3,
+      "updated": "2026-02-11",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.PetHealthCare"
+    },
+    {
+      "id": "prefixsuffixviewer",
+      "name": "Prefix Suffix Viewer",
+      "package": "com.shankardakolia.prefixsuffixviewer",
+      "category": "Tools",
+      "installs": 8,
+      "updated": "2026-04-10",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.prefixsuffixviewer"
+    },
+    {
+      "id": "prefixwordbuilder",
+      "name": "Prefix Word Builder",
+      "package": "com.shankardakolia.prefixwordbuilder",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-19",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.prefixwordbuilder"
+    },
+    {
+      "id": "prioritypicker",
+      "name": "Priority Picker",
+      "package": "com.shankardakolia.prioritypicker",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.prioritypicker"
+    },
+    {
+      "id": "promptexai",
+      "name": "Promptex AI",
+      "package": "com.shankar.promptexai",
+      "category": "Tools",
+      "installs": 25,
+      "updated": "2026-02-06",
+      "featured": true,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankar.promptexai"
+    },
+    {
+      "id": "quickmath",
+      "name": "Quick Math Challenge",
+      "package": "com.shankardakolia.quickmath",
+      "category": "Education",
+      "installs": 1,
+      "updated": "2026-04-08",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.quickmath"
+    },
+    {
+      "id": "quickmathpracticelite",
+      "name": "Quick Math Practice Lite",
+      "package": "com.shankardakolia.quickmathpracticelite",
+      "category": "Education",
+      "installs": 0,
+      "updated": "2026-04-25",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.quickmathpracticelite"
+    },
+    {
+      "id": "reactioncolortap",
+      "name": "Quick Reaction Colour Tap",
+      "package": "com.shankardakolia.reactioncolortap",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-04-17",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.reactioncolortap"
+    },
+    {
+      "id": "quicktapchallenge",
+      "name": "Quick Tap Challenge",
+      "package": "com.shankardakolia.quicktapchallenge",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-04-25",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.quicktapchallenge"
+    },
+    {
+      "id": "randomcardpicker",
+      "name": "Random Card Picker",
+      "package": "com.shankardakolia.randomcardpicker",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-25",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.randomcardpicker"
+    },
+    {
+      "id": "randomcolorgenerator",
+      "name": "Random Color Generator",
+      "package": "com.shankardakolia.randomcolorgenerator",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-10",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.randomcolorgenerator"
+    },
+    {
+      "id": "randomdirectionarrow",
+      "name": "Random Direction Arrow",
+      "package": "com.shankardakolia.randomdirectionarrow",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-24",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.randomdirectionarrow"
+    },
+    {
+      "id": "randomdirectionpicker",
+      "name": "Random Direction Picker",
+      "package": "com.shankardakolia.randomdirectionpicker",
+      "category": "Tools",
+      "installs": 1,
+      "updated": "2026-04-15",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.randomdirectionpicker"
+    },
+    {
+      "id": "randomemojipicker",
+      "name": "Random Emoji Picker",
+      "package": "com.shankardakolia.randomemojipicker",
+      "category": "Tools",
+      "installs": 2,
+      "updated": "2026-04-10",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.randomemojipicker"
+    },
+    {
+      "id": "randomfoodpicker",
+      "name": "Random Food Picker",
+      "package": "com.shankardakolia.randomfoodpicker",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-21",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.randomfoodpicker"
+    },
+    {
+      "id": "randomlettergenerator",
+      "name": "Random Letter Generator",
+      "package": "com.shankardakolia.randomlettergenerator",
+      "category": "Tools",
+      "installs": 9,
+      "updated": "2026-04-10",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.randomlettergenerator"
+    },
+    {
+      "id": "randommealpicker",
+      "name": "Random Meal Picker",
+      "package": "com.shankardakolia.randommealpicker",
+      "category": "Tools",
+      "installs": 1,
+      "updated": "2026-04-15",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.randommealpicker"
+    },
+    {
+      "id": "randommoviegenre",
+      "name": "Random Movie Genre Picker",
+      "package": "com.shankardakolia.randommoviegenre",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-15",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.randommoviegenre"
+    },
+    {
+      "id": "namepicker",
+      "name": "Random Name Picker",
+      "package": "com.shankardakolia.namepicker",
+      "category": "Tools",
+      "installs": 6,
+      "updated": "2026-04-08",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.namepicker"
+    },
+    {
+      "id": "randomnamespinnerlite",
+      "name": "Random Name Spinner Lite",
+      "package": "com.shankardakolia.randomnamespinnerlite",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-24",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.randomnamespinnerlite"
+    },
+    {
+      "id": "randomnumber",
+      "name": "Random Number Generator",
+      "package": "com.shankardakolia.randomnumber",
+      "category": "Tools",
+      "installs": 12,
+      "updated": "2026-04-06",
+      "featured": true,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.randomnumber"
+    },
+    {
+      "id": "randomnumberspinner",
+      "name": "Random Number Spinner",
+      "package": "com.shankardakolia.randomnumberspinner",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-25",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.randomnumberspinner"
+    },
+    {
+      "id": "passwordgen",
+      "name": "Random Password Generator",
+      "package": "com.shankardakolia.passwordgen",
+      "category": "Tools",
+      "installs": 3,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.passwordgen"
+    },
+    {
+      "id": "randomshapecolorpicker",
+      "name": "Random Shape Color Picker",
+      "package": "com.shankardakolia.randomshapecolorpicker",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-24",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.randomshapecolorpicker"
+    },
+    {
+      "id": "randomshapegenerator",
+      "name": "Random Shape Generator",
+      "package": "com.shankardakolia.randomshapegenerator",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-16",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.randomshapegenerator"
+    },
+    {
+      "id": "truthdarecombo",
+      "name": "Random Truth Dare Combo",
+      "package": "com.shankardakolia.truthdarecombo",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-15",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.truthdarecombo"
+    },
+    {
+      "id": "randomtruthgenerator",
+      "name": "Random Truth Generator",
+      "package": "com.shankardakolia.randomtruthgenerator",
+      "category": "Tools",
+      "installs": 2,
+      "updated": "2026-04-16",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.randomtruthgenerator"
+    },
+    {
+      "id": "randomtruthquestion",
+      "name": "Random Truth Question",
+      "package": "com.shankardakolia.randomtruthquestion",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-26",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.randomtruthquestion"
+    },
+    {
+      "id": "randomworkoutgenerator",
+      "name": "Random Workout Generator",
+      "package": "com.shankardakolia.randomworkoutgenerator",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-16",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.randomworkoutgenerator"
+    },
+    {
+      "id": "reaction",
+      "name": "Reaction Time Tester",
+      "package": "com.shankardakolia.reaction",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.reaction"
+    },
+    {
+      "id": "readingtimelog",
+      "name": "Reading Time Log",
+      "package": "com.shankardakolia.readingtimelog",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-04-24",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.readingtimelog"
+    },
+    {
+      "id": "readingtrackerlite",
+      "name": "Reading Tracker Lite",
+      "package": "com.shankardakolia.readingtrackerlite",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-04-16",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.readingtrackerlite"
+    },
+    {
+      "id": "recipemanager",
+      "name": "Recipe Manager",
+      "package": "com.shankardakolia.recipemanager",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-03-28",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.recipemanager"
+    },
+    {
+      "id": "reminderapp",
+      "name": "Reminder App",
+      "package": "com.shankardakolia.reminderapp",
+      "category": "Finance",
+      "installs": 2,
+      "updated": "2026-03-26",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.reminderapp"
+    },
+    {
+      "id": "rhymingwords",
+      "name": "Rhyming Words Finder",
+      "package": "com.shankardakolia.rhymingwords",
+      "category": "Tools",
+      "installs": 6,
+      "updated": "2026-04-10",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.rhymingwords"
+    },
+    {
+      "id": "roastmelite",
+      "name": "Roast Me Lite",
+      "package": "com.shankardakolia.roastmelite",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-26",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.roastmelite"
+    },
+    {
+      "id": "sscclass10algebra",
+      "name": "SSC 10th Standard Algebra",
+      "package": "com.shankardakolia.sscclass10algebra",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-03-24",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.sscclass10algebra"
+    },
+    {
+      "id": "sscclass10geometry",
+      "name": "SSC 10th Standard Geometry",
+      "package": "com.shankardakolia.sscclass10geometry",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-03-24",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.sscclass10geometry"
+    },
+    {
+      "id": "sscclass10science1",
+      "name": "SSC 10th Standard Science1",
+      "package": "com.shankardakolia.sscclass10science1",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-03-24",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.sscclass10science1"
+    },
+    {
+      "id": "sscclass10science2",
+      "name": "SSC 10th Standard Science2",
+      "package": "com.shankardakolia.sscclass10science2",
+      "category": "Tools",
+      "installs": 1,
+      "updated": "2026-03-24",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.sscclass10science2"
+    },
+    {
+      "id": "savingsgoaltracker",
+      "name": "Savings Goal Tracker",
+      "package": "com.shankardakolia.savingsgoaltracker",
+      "category": "Productivity",
+      "installs": 1,
+      "updated": "2026-04-15",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.savingsgoaltracker"
+    },
+    {
+      "id": "savingstrackerlite",
+      "name": "Savings Tracker Lite",
+      "package": "com.shankardakolia.savingstrackerlite",
+      "category": "Productivity",
+      "installs": 2,
+      "updated": "2026-04-09",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.savingstrackerlite"
+    },
+    {
+      "id": "sciencefacts",
+      "name": "Science Facts Viewer",
+      "package": "com.shankardakolia.sciencefacts",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.sciencefacts"
+    },
+    {
+      "id": "screentime",
+      "name": "Screen Time Log",
+      "package": "com.shankardakolia.screentime",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.screentime"
+    },
+    {
+      "id": "screenunlockcounter",
+      "name": "Screen Unlock Counter",
+      "package": "com.shankardakolia.screenunlockcounter",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-16",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.screenunlockcounter"
+    },
+    {
+      "id": "sentencebuildergame",
+      "name": "Sentence Builder Game",
+      "package": "com.shankardakolia.sentencebuildergame",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-04-17",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.sentencebuildergame"
+    },
+    {
+      "id": "simplecardmatchgame",
+      "name": "Simple Card Match Game",
+      "package": "com.shankardakolia.simplecardmatchgame",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-04-25",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.simplecardmatchgame"
+    },
+    {
+      "id": "simplecountdowndays",
+      "name": "Simple Countdown Days",
+      "package": "com.shankardakolia.simplecountdowndays",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-24",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.simplecountdowndays"
+    },
+    {
+      "id": "counter",
+      "name": "Simple Counter",
+      "package": "com.shankardakolia.counter",
+      "category": "Tools",
+      "installs": 9,
+      "updated": "2026-04-07",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.counter"
+    },
+    {
+      "id": "journallite",
+      "name": "Simple Journal Lite",
+      "package": "com.shankardakolia.journallite",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-08",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.journallite"
+    },
+    {
+      "id": "simplemazegame",
+      "name": "Simple Maze Game",
+      "package": "com.shankardakolia.simplemazegame",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-04-25",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.simplemazegame"
+    },
+    {
+      "id": "numbertapgame",
+      "name": "Simple Number Tap Game",
+      "package": "com.shankardakolia.numbertapgame",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-04-25",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.numbertapgame"
+    },
+    {
+      "id": "simplepollmakerlite",
+      "name": "Simple Poll Maker Lite",
+      "package": "com.shankardakolia.simplepollmakerlite",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-19",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.simplepollmakerlite"
+    },
+    {
+      "id": "simplereactiontimer",
+      "name": "Simple Reaction Timer",
+      "package": "com.shankardakolia.simplereactiontimer",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-25",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.simplereactiontimer"
+    },
+    {
+      "id": "stopwatchlite",
+      "name": "Simple Stopwatch Lite",
+      "package": "com.shankardakolia.stopwatchlite",
+      "category": "Tools",
+      "installs": 1,
+      "updated": "2026-04-10",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.stopwatchlite"
+    },
+    {
+      "id": "voting",
+      "name": "Simple Voting App",
+      "package": "com.shankardakolia.voting",
+      "category": "Tools",
+      "installs": 3,
+      "updated": "2026-04-05",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.voting"
+    },
+    {
+      "id": "sleeplog",
+      "name": "Sleep Log",
+      "package": "com.shankardakolia.sleeplog",
+      "category": "Productivity",
+      "installs": 3,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.sleeplog"
+    },
+    {
+      "id": "app",
+      "name": "Smart Task Manager",
+      "package": "com.shankardakoliasmarttaskmanager.app",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-03-13",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakoliasmarttaskmanager.app"
+    },
+    {
+      "id": "spelling",
+      "name": "Spelling Practice",
+      "package": "com.shankardakolia.spelling",
+      "category": "Tools",
+      "installs": 1,
+      "updated": "2026-04-08",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.spelling"
+    },
+    {
+      "id": "spellingpracticelite",
+      "name": "Spelling Practice Lite",
+      "package": "com.shankardakolia.spellingpracticelite",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-21",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.spellingpracticelite"
+    },
+    {
+      "id": "yesnowheel",
+      "name": "Spin Yes No Wheel",
+      "package": "com.shankardakolia.yesnowheel",
+      "category": "Tools",
+      "installs": 9,
+      "updated": "2026-04-09",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.yesnowheel"
+    },
+    {
+      "id": "spoilergenerator",
+      "name": "Spoiler Generator",
+      "package": "com.shankardakolia.spoilergenerator",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-25",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.spoilergenerator"
+    },
+    {
+      "id": "statusandquotes",
+      "name": "Status And Quotes",
+      "package": "com.shankardakolia.statusandquotes",
+      "category": "Tools",
+      "installs": 7,
+      "updated": "2026-03-20",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.statusandquotes"
+    },
+    {
+      "id": "studyhourslog",
+      "name": "Study Hours Log",
+      "package": "com.shankardakolia.studyhourslog",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-04-10",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.studyhourslog"
+    },
+    {
+      "id": "studytimerlite",
+      "name": "Study Timer Lite",
+      "package": "com.shankardakolia.studytimerlite",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-21",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.studytimerlite"
+    },
+    {
+      "id": "subscriptiontracker",
+      "name": "Subscription Tracker",
+      "package": "com.shankardakolia.subscriptiontracker",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-04-16",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.subscriptiontracker"
+    },
+    {
+      "id": "sudoku",
+      "name": "Sudoku",
+      "package": "com.shankardakolia.sudoku",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-03",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.sudoku"
+    },
+    {
+      "id": "synonyms",
+      "name": "Synonym Finder",
+      "package": "com.shankardakolia.synonyms",
+      "category": "Tools",
+      "installs": 3,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.synonyms"
+    },
+    {
+      "id": "tapspeedcounter",
+      "name": "Tap Speed Counter",
+      "package": "com.shankardakolia.tapspeedcounter",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-04-25",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.tapspeedcounter"
+    },
+    {
+      "id": "tapspeed",
+      "name": "Tap Speed Test",
+      "package": "com.shankardakolia.tapspeed",
+      "category": "Games",
+      "installs": 11,
+      "updated": "2026-04-06",
+      "featured": true,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.tapspeed"
+    },
+    {
+      "id": "tapthecirclegame",
+      "name": "Tap The Circle Game",
+      "package": "com.shankardakolia.tapthecirclegame",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-04-25",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.tapthecirclegame"
+    },
+    {
+      "id": "tapmovingdo",
+      "name": "Tap The Moving Dot",
+      "package": "com.shankardakolia.tapmovingdo",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-04-10",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.tapmovingdo"
+    },
+    {
+      "id": "tilememoryflip",
+      "name": "Tile Memory Flip",
+      "package": "com.shankardakolia.tilememoryflip",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-18",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.tilememoryflip"
+    },
+    {
+      "id": "tiletapgame",
+      "name": "Tile Tap Game",
+      "package": "com.shankardakolia.tiletapgame",
+      "category": "Games",
+      "installs": 1,
+      "updated": "2026-04-18",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.tiletapgame"
+    },
+    {
+      "id": "timetracker",
+      "name": "Time Tracker",
+      "package": "com.shankardakolia.timetracker",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-03-21",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.timetracker"
+    },
+    {
+      "id": "tipcalculatorlite",
+      "name": "Tip Calculator Lite",
+      "package": "com.shankardakolia.tipcalculatorlite",
+      "category": "Finance",
+      "installs": 0,
+      "updated": "2026-04-16",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.tipcalculatorlite"
+    },
+    {
+      "id": "triviaquizgame",
+      "name": "Trivia Quiz Game",
+      "package": "com.shankardakolia.triviaquizgame",
+      "category": "Games",
+      "installs": 2,
+      "updated": "2026-04-03",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.triviaquizgame"
+    },
+    {
+      "id": "truefalse",
+      "name": "True False Quiz",
+      "package": "com.shankardakolia.truefalse",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.truefalse"
+    },
+    {
+      "id": "unitconverterlite",
+      "name": "Unit Converter Lite",
+      "package": "com.shankardakolia.unitconverterlite",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-09",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.unitconverterlite"
+    },
+    {
+      "id": "vehiclelog",
+      "name": "Vehicle Maintenance Log",
+      "package": "com.shankardakolia.vehiclelog",
+      "category": "Productivity",
+      "installs": 7,
+      "updated": "2026-03-29",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.vehiclelog"
+    },
+    {
+      "id": "vocabularybuilder",
+      "name": "Vocabulary Builder",
+      "package": "com.shankardakolia.vocabularybuilder",
+      "category": "Tools",
+      "installs": 2,
+      "updated": "2026-03-22",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.vocabularybuilder"
+    },
+    {
+      "id": "vocabularytestlite",
+      "name": "Vocabulary Test Lite",
+      "package": "com.shankardakolia.vocabularytestlite",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-25",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.vocabularytestlite"
+    },
+    {
+      "id": "warrantytracker",
+      "name": "Warranty Tracker",
+      "package": "com.shankardakolia.warrantytracker",
+      "category": "Productivity",
+      "installs": 3,
+      "updated": "2026-03-28",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.warrantytracker"
+    },
+    {
+      "id": "waterbreaktimer",
+      "name": "Water Break Timer",
+      "package": "com.shankardakolia.waterbreaktimer",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-17",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.waterbreaktimer"
+    },
+    {
+      "id": "watertracker",
+      "name": "Water Intake Tracker",
+      "package": "com.shankardakolia.watertracker",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-03-28",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.watertracker"
+    },
+    {
+      "id": "weightgaintrackerlite",
+      "name": "Weight Gain Tracker Lite",
+      "package": "com.shankardakolia.weightgaintrackerlite",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-04-20",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.weightgaintrackerlite"
+    },
+    {
+      "id": "weightloglite",
+      "name": "Weight Log Lite",
+      "package": "com.shankardakolia.weightloglite",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-04-09",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.weightloglite"
+    },
+    {
+      "id": "weightlosstrackerlite",
+      "name": "Weight Loss Tracker Lite",
+      "package": "com.shankardakolia.weightlosstrackerlite",
+      "category": "Productivity",
+      "installs": 0,
+      "updated": "2026-04-17",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.weightlosstrackerlite"
+    },
+    {
+      "id": "whatwillieat",
+      "name": "What Will I Eat",
+      "package": "com.shankardakolia.whatwillieat",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-26",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.whatwillieat"
+    },
+    {
+      "id": "wordassociationgame",
+      "name": "Word Association Game",
+      "package": "com.shankardakolia.wordassociationgame",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-04-25",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.wordassociationgame"
+    },
+    {
+      "id": "wordpuzzlegame",
+      "name": "Word Puzzle Game",
+      "package": "com.shankardakolia.wordpuzzlegame",
+      "category": "Games",
+      "installs": 0,
+      "updated": "2026-04-03",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.wordpuzzlegame"
+    },
+    {
+      "id": "wordscrambler",
+      "name": "Word Scrambler",
+      "package": "com.shankardakolia.wordscrambler",
+      "category": "Tools",
+      "installs": 1,
+      "updated": "2026-04-10",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.wordscrambler"
+    },
+    {
+      "id": "wordday",
+      "name": "Word of the Day",
+      "package": "com.shankardakolia.wordday",
+      "category": "Tools",
+      "installs": 3,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.wordday"
+    },
+    {
+      "id": "workouttimerlite",
+      "name": "Workout Timer Lite",
+      "package": "com.shankardakolia.workouttimerlite",
+      "category": "Tools",
+      "installs": 0,
+      "updated": "2026-04-24",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.workouttimerlite"
+    },
+    {
+      "id": "yesno",
+      "name": "Yes No Decision Maker",
+      "package": "com.shankardakolia.yesno",
+      "category": "Tools",
+      "installs": 4,
+      "updated": "2026-04-06",
+      "featured": false,
+      "play_url": "https://play.google.com/store/apps/details?id=com.shankardakolia.yesno"
+    }
+  ]
+}
